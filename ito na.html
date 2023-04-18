@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday Message</title>
+	<style>
+		body {
+			background-color: #e6f7ff;
+			background-image: url('https://i.pinimg.com/564x/36/25/e4/3625e475bf3b85a563d885e540ff7a1b.jpg');
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+			text-align: center;
+			position: relative;
+		}
+		
+		h1 {
+			color: #ff3399;
+			font-size: 32px;
+			margin-top: 0;
+		}
+		
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			color: #333;
+			margin-bottom: 10px;
+		}
+		
+		audio {
+			display: none;
+		}
+		
+		button {
+			background-color: #ff3399;
+			color: #fff;
+			font-size: 18px;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		button:hover {
+			background-color: #e60073;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		 <h1>Happy Birthday, Florence!</h1>
+		<p>Did you know you have the cutest smile in the whole world?</p>
+		<p>Anyway, may your birthday bring you more cute smiles and sunny skies. Your happiness means heaven and earth for me. Happy Birthday!</p>
+		<p>I'm blessed that you came into my life,</p>
+		<p>Brix D.</p>
+		
+		<audio id="audio" src="https://www.dropbox.com/s/c8r4mx380aj4fab/troll.mp3?raw=1" loop></audio>
+		<button onclick="document.getElementById('audio').play()">Play Music</button>
+	</div>
+</body>
+</html>
